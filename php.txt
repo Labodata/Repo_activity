@@ -72,6 +72,14 @@
 			</optgroup>
 		</select>
 	</p>
+	<!-- POUR ENVOYER UN FORMULAIRE -->
+	<!-- 1ère méthode -->
+	<p>
+		<button type="submit">Envoyer</button>
+
+		<!-- REINISIALISER LE FORMULAIRE -->
+		<input type="reset" value="Réinitialiser">
+	</p>
 
 	</fieldset>
 </form>
