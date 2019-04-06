@@ -41,6 +41,25 @@
 					<!-- DESCRIPTION DU PROJET -->
 					<p>Ceci est mon premier projet.</p>
 
+			</section>
+
+			<!-- PRODUCTION -->
+			<section id="picrure-project">
+					<h3>PRODUCTION</h3>
+
+					<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/OmUKOLUh7NM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+					<img width="90%" src="pictures/presentation.png" alt="mon premier projet" />
+
+					<video controls width="70%" src="pictures/Africa_Netpreneur_Prize.mp4">
+						Votre navigateur ne peut pas lire la vidéo.
+					</video>
+
+					<!-- <audio controls width="70%" src="pictures/Star_Wars.mp3">
+						Votre navigateur ne peut pas lire la musique.
+					</audio> -->
+			</section>
+
 			<!-- CONTACT -->
 			<section>
 				<h3><b>CONTACT</b></h3>
