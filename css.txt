@@ -1,0 +1,36 @@
+/* CLASSES */
+.separator {
+	width: 40px;
+	height: 1px;
+	margin: 15px auto;
+	display: block;
+	background: #999999;
+}
+
+.contener {
+	width: 80%;
+	margin: auto;
+}
+
+.projet {
+	width: 400px;
+	margin: 30px;
+}
+
+.projet img { 
+	min-width: 400px;
+	height: 266px;
+}
+
+.projet .date-project {
+	font-size: 0.7em;
+}
+
+.projet {
+	background: white;
+}
+
+.picture {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
