@@ -34,3 +34,129 @@
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
+
+#logo {
+	margin-top: 30px;
+	width: 50px;
+
+}
+
+h1 {
+	font-family: 'theblacklist', arial, sans-serif;
+	margin-top: 0;
+	padding-top: 30px;
+}
+
+/* POLICES */
+@font-face {
+	font-family: 'theblacklist';
+	src: url('../src/theblacklist.ttf') format('truetype');
+}
+
+/* MEDIA */
+@media all and (max-width: 1000px) {
+ 	.projet { width: 100px; margin: 15px auto; }
+ 	.projet img { width: 100%; min-width: auto; height: auto; }
+ 	.projet .picture { width: 100%; height: auto; }
+ 	header h2 { width: 90% }
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	width: 400px;
+	margin: auto;
+}
+
+h3:before{
+	content: "« ";
+	color: grey;
+}
+
+h3{
+	font-size: 1.5em;
+
+}
+
+h3:after{
+	content: " »";
+	color: grey;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #f4f7f6;
+	margin: 0;	
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+ul {
+	padding: 0;
+	display: inline;
+}
+nav {
+	text-align: center;
+	background: white;
+	box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
+	font-size: 1.1em;
+	padding: 15px;
+}
+
+footer{
+	background: #1D1D1D;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin: 10px;
+}
+
+li:hover {
+	font-weight: bold;
+}
+
+
+h1:active {
+	color: blue;
+}
+header{
+	text-align: center;
+	background: #1D1D1D;
+	color: white;
+	padding-bottom: 30px;
+}
+
+section{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#CONTACT {
+	border: 1px black solid;
+	border-radius: 15px;
+	padding: 30px;
+	margin-bottom: 50;
+}
+
+*{
+box-sizing: border-box;
+}
+
+#projet {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#picture-project img {
+	width: 90%;
+}
