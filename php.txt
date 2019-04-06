@@ -1,0 +1,77 @@
+<!-- LES OPTIONS
+	- Les cases à cocher : checkbox
+	- Les zones d'options (cases d'option) : radio
+	- Les listes déroulantes : choisir dans une liste
+-->
+
+<form action="traitement.php" method="post">
+	<fieldset>
+		<legend>Remplissez ce formulaire.</legend>
+	<p>
+		<label>Prénom</label> :
+		<!-- ZONE DE SAISIE MONOLIGNE -->
+		<input type="text" name="prenom" required autofocus maxlength="30" placeholder="Exemple: Nicolas">
+	</p>
+
+	<!-- ZONE DE SAISIE MULTILIGNE -->
+	<p>
+		<label>Description</label> :<br />
+		<textarea name="description" cols="10"></textarea>
+	</p>
+
+	<!-- ZONE DE SAISIE ENRICHIE -->
+	<p>
+		<label>Date</label> :<br />
+		<input type="Date" name="date">
+	</p>
+
+	<!-- VALEURS PREDEFINIES -->
+	<p>
+		<label for="Quelle carte bleue avez-vous ?">
+			Quelle carte bleue avez-vous ?
+		</label>
+		<input type="text" list="cartes" name="cards">
+		<datalist id="cartes">
+			<option value="Visa classic">
+			<option value="Visa silver">
+			<option value="Visa gold">
+		</datalist>
+	</p>
+
+	<!-- LES CASES A COCHER -->
+	<p>
+		<label>Quel est votre plat préféré ?</label><br />
+		<input type="checkbox" name="Foutou">
+			<label for="Foufou">Foufou</label><br />
+		<input type="checkbox" name="Couscous">
+			<label for="Couscous">Couscous</label><br />
+		<input type="checkbox" name="Attiéké">
+			<label for="carbonara">Attiéké</label><br />
+	</p>
+
+	<!-- LES CASES D'OPTION -->
+	<p>
+		<label>Quel est votre plat préférée ?</label><br />
+		<input type="radio" name="plat" value="Foufou"><label for="Foufou">Foufou</label><br />
+		<input type="radio" name="plat" value="Couscous"><label for="Couscous">Couscous</label><br />
+		<input type="radio" name="plat" value="Attiéké"><label for="Attiéké">Attiéké</label><br />
+	</p>
+
+	<!-- LES LISTES DEROULANTES -->
+	<p>
+		<label>Quel est votre plat préféré ?</label><br />
+		<select name="plat">
+			<optgroup label="Plats froids">
+				<option value="huîtres">Huîtres</option>
+			</optgroup>
+
+			<optgroup label="Plats chauds">
+				<option value="foufou" selected>Foufou</option>
+				<option value="couscous">Couscous</option>
+				<option value="attiéké">Attiéké</option>
+			</optgroup>
+		</select>
+	</p>
+
+	</fieldset>
+</form>
